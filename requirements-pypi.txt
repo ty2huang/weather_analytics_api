@@ -1,0 +1,10 @@
+pyyaml
+sqlalchemy<2
+pandas
+pandasql
+GitPython
+Jinja2
+uvicorn
+fastapi
+cachetools
+pwinput
