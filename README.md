@@ -4,13 +4,11 @@ Sample API project using the squirrels framework.
 
 ## Setup
 
-First, create the virtual environment for the project.
+First, create the virtual environment for the project with the necessary libraries installed.
 
 ```bash
 pip install pipenv
-pipenv shell
-pip install -r requirements-pypi.txt
-pip install -r requirements-test.txt
+pipenv install -r requirements.txt
 ```
 
 Next, create a squirrels database profile.

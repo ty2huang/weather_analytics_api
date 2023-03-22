@@ -1,2 +1,0 @@
---index-url https://test.pypi.org/simple/
-squirrels==0.1.0rc

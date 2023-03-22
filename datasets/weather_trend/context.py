@@ -19,7 +19,7 @@ def get_time_periods(prms: Callable[[str], sq.Parameter]) -> str:
     return time_period_param.get_selected_labels_quoted()
 
 
-def main(prms: Callable[[str], sq.Parameter]) -> Dict[str, Any]:
+def main(prms: Callable[[str], sq.Parameter], proj: Callable[[str], str]) -> Dict[str, Any]:
     trend_type_option = get_selected_trend_type(prms)
 
     return {

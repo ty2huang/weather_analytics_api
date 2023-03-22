@@ -8,7 +8,7 @@ def get_selected_group_by(prms: Callable[[str], sq.Parameter]) -> GroupByOption:
     return group_by_param.get_selected()
 
 
-def main(prms: Callable[[str], sq.Parameter]) -> Dict[str, Any]:
+def main(prms: Callable[[str], sq.Parameter], proj: Callable[[str], str]) -> Dict[str, Any]:
     group_by_option = get_selected_group_by(prms)
 
     return {
